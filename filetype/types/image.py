@@ -68,13 +68,13 @@ class Jxl(Type):
              buf[0] == 0x00 and
              buf[1] == 0x00 and
              buf[2] == 0x00 and
-             buf[3] == 0x00 and
-             buf[4] == 0x0C and
-             buf[5] == 0x4A and
-             buf[6] == 0x58 and
-             buf[7] == 0x4C and
-             buf[8] == 0x20 and
-             buf[9] == 0x0D and
+             buf[3] == 0x0C and
+             buf[4] == 0x4A and
+             buf[5] == 0x58 and
+             buf[6] == 0x4C and
+             buf[7] == 0x20 and
+             buf[8] == 0x0D and
+             buf[9] == 0x0A and
              buf[10] == 0x87 and
              buf[11] == 0x0A)
         )
